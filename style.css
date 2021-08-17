@@ -1,0 +1,35 @@
+body{
+    text-align:center;
+}
+h1{
+    font-size:40px;
+    font-family:inherit;
+    font-weight:bold;
+}
+#Apps{
+    width:100%;
+    height:800px;
+    background-color:beige;
+}
+#Game{
+    width:100%;
+    height:900px;
+    background-color:beige;
+}
+#Chatbot{
+    width:100%;
+    height:800px;
+    background-color:beige;
+}
+img{
+    transition:transform .2s;
+}
+img:hover{
+    transform:scale(0.9);
+}
+.Line{
+    height:6px;
+    background-color:black;
+    width:70px;
+    margin:8px auto;
+}
